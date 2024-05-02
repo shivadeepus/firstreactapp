@@ -1,0 +1,180 @@
+/* styles.css */
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('sunset.png'); /* Specify the path to your background image 
+    background-size: cover;
+    background-color: #ddcccc;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('sunset.png'); /* Specify the path to your background image */
+    background-size: cover;
+    background-color: #ddcccc;
+    filter: contrast(120%) brightness(90%) saturate(120%);
+    background-blend-mode: overlay;
+    opacity: 0.95;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+}
+
+/*.logo img {
+    width: 350px; /* Specify the width 
+    height: auto;
+    padding:30px /* Maintain aspect ratio 
+}*/
+
+.logo img {
+    width: 350px; /* Specify the width */
+    height: auto;
+    padding: 30px; /* Add padding for spacing */
+    border-radius: 50%; /* Apply border-radius for a circular shape */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.logo img:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+
+/*.menu-contact {
+    display: flex;
+    align-items: center; /* Align items vertically 
+}
+
+.menu-button button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:40px;
+}
+
+.contact-info {
+    margin-left: 20px; /
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.menu-contact {
+    display: flex;
+    align-items: center; /* Align items vertically 
+}*/
+
+.menu-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.menu-button button:hover {
+    background-color: #388E3C; /* Darker green color on hover */
+}
+
+.contact-info {
+    margin-top: 10px;
+    margin-left: 20px; /* Adjust the margin as needed */
+    margin-right: 20px; /* Add margin to the right for spacing */
+}
+
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px; /* Smaller font size for contact info */
+    color: #666; /* Dark gray color for contact info */
+}*/
+
+
+.image-container {
+    display: flex;
+    padding:10px;
+}
+
+.image-container img{
+    width: 335px; 
+    height: 370px;
+    margin: 60px; 
+    border: 2px solid #e6babacb; /* Add a 2px solid border with a light gray color */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-sizing: border-box; /* Include border thickness in image size */
+    
+}
+
+/*.staffs {
+    margin-top: 20px; 
+    text-align: center; 
+}*/
+
+.postcard-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px; 
+    margin-top: 20px;
+}
+
+.postcard {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.postcard img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description {
+    padding: 20px;
+    text-align: center;
+}
+
+.description h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.description p {
+    font-size: 14px;
+    color: #666;
+}
+
+.staffs {
+    font-size: 36px;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
